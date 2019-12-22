@@ -1,0 +1,412 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 161225,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.beforeHo()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "I should be able to login in osa\u0027s forum by using my usrname and password",
+        "description": "",
+        "id": "as-user,-i-should-be-able-to-login-osa\u0027s-forum;i-should-be-able-to-login-in-osa\u0027s-forum-by-using-my-usrname-and-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 88524,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterHo()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9144820864,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on Forum login page",
+            "match": {
+              "location": "ForumLogin.i_am_on_Forum_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 120226536,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter username \"user1\" and Password \"pass1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user1",
+                  "offset": 18
+                },
+                {
+                  "val": "pass1",
+                  "offset": 39
+                }
+              ],
+              "location": "ForumLogin.i_enter_username_and_Password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61699220,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I verify the login is successful",
+            "match": {
+              "location": "ForumLogin.i_verify_the_login_is_successful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5091331728,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I close the browser",
+            "match": {
+              "location": "ForumLogin.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 104347,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.beforeHo()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "I should be able to login in osa\u0027s forum by using my usrname and password",
+        "description": "",
+        "id": "as-user,-i-should-be-able-to-login-osa\u0027s-forum;i-should-be-able-to-login-in-osa\u0027s-forum-by-using-my-usrname-and-password;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 87242,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterHo()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7349850150,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on Forum login page",
+            "match": {
+              "location": "ForumLogin.i_am_on_Forum_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 115495838,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter username \"user2\" and Password \"pass2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user2",
+                  "offset": 18
+                },
+                {
+                  "val": "pass2",
+                  "offset": 39
+                }
+              ],
+              "location": "ForumLogin.i_enter_username_and_Password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49124509,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I verify the login is successful",
+            "match": {
+              "location": "ForumLogin.i_verify_the_login_is_successful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5091785897,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I close the browser",
+            "match": {
+              "location": "ForumLogin.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 149679,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.beforeHo()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "I should be able to login in osa\u0027s forum by using my usrname and password",
+        "description": "",
+        "id": "as-user,-i-should-be-able-to-login-osa\u0027s-forum;i-should-be-able-to-login-in-osa\u0027s-forum-by-using-my-usrname-and-password;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 128723,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterHo()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7288475091,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on Forum login page",
+            "match": {
+              "location": "ForumLogin.i_am_on_Forum_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 129585296,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter username \"user3\" and Password \"pass3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user3",
+                  "offset": 18
+                },
+                {
+                  "val": "pass3",
+                  "offset": 39
+                }
+              ],
+              "location": "ForumLogin.i_enter_username_and_Password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60367936,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I verify the login is successful",
+            "match": {
+              "location": "ForumLogin.i_verify_the_login_is_successful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5086414146,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I close the browser",
+            "match": {
+              "location": "ForumLogin.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 92801,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.beforeHo()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "I should be able to login in osa\u0027s forum by using my usrname and password",
+        "description": "",
+        "id": "as-user,-i-should-be-able-to-login-osa\u0027s-forum;i-should-be-able-to-login-in-osa\u0027s-forum-by-using-my-usrname-and-password;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 150534,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterHo()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7565290650,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on Forum login page",
+            "match": {
+              "location": "ForumLogin.i_am_on_Forum_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 168077066,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter username \"user4\" and Password \"pass4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user4",
+                  "offset": 18
+                },
+                {
+                  "val": "pass4",
+                  "offset": 39
+                }
+              ],
+              "location": "ForumLogin.i_enter_username_and_Password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60209276,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I verify the login is successful",
+            "match": {
+              "location": "ForumLogin.i_verify_the_login_is_successful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5097462135,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I close the browser",
+            "match": {
+              "location": "ForumLogin.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "As user, I should be able to login Osa\u0027s forum",
+    "description": "",
+    "id": "as-user,-i-should-be-able-to-login-osa\u0027s-forum",
+    "keyword": "Feature",
+    "uri": "ForumLogin.feature"
+  }
+]
