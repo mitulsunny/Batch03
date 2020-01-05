@@ -90,7 +90,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 161225,
+  "duration": 188068,
   "status": "passed"
 });
 formatter.scenario({
@@ -135,8 +135,9 @@ formatter.match({
   "location": "ForumLogin.i_am_on_Forum_login_page()"
 });
 formatter.result({
-  "duration": 9144820864,
-  "status": "passed"
+  "duration": 112833036,
+  "error_message": "java.lang.IllegalStateException: The driver executable does not exist: /Users/afuruddin/Desktop/Stage/Batch03/BDD_Cucumber0321/C:\\Users\\obaidulla\\Desktop\\chromedriver.exe\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\n\tat com.osa.base.Browser.openBrowser(Browser.java:13)\n\tat com.osa.steps.ForumLogin.i_am_on_Forum_login_page(ForumLogin.java:21)\n\tat ✽.Given I am on Forum login page(ForumLogin.feature:4)\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -152,29 +153,26 @@ formatter.match({
   "location": "ForumLogin.i_enter_username_and_Password(String,String)"
 });
 formatter.result({
-  "duration": 120226536,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "ForumLogin.i_verify_the_login_is_successful()"
 });
 formatter.result({
-  "duration": 61699220,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "ForumLogin.i_close_the_browser()"
 });
 formatter.result({
-  "duration": 5091331728,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 88524,
+  "duration": 49646,
   "status": "passed"
 });
 formatter.before({
-  "duration": 104347,
+  "duration": 65224,
   "status": "passed"
 });
 formatter.scenario({
@@ -219,8 +217,9 @@ formatter.match({
   "location": "ForumLogin.i_am_on_Forum_login_page()"
 });
 formatter.result({
-  "duration": 7349850150,
-  "status": "passed"
+  "duration": 640573,
+  "error_message": "java.lang.IllegalStateException: The driver executable does not exist: /Users/afuruddin/Desktop/Stage/Batch03/BDD_Cucumber0321/C:\\Users\\obaidulla\\Desktop\\chromedriver.exe\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\n\tat com.osa.base.Browser.openBrowser(Browser.java:13)\n\tat com.osa.steps.ForumLogin.i_am_on_Forum_login_page(ForumLogin.java:21)\n\tat ✽.Given I am on Forum login page(ForumLogin.feature:4)\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -236,29 +235,26 @@ formatter.match({
   "location": "ForumLogin.i_enter_username_and_Password(String,String)"
 });
 formatter.result({
-  "duration": 115495838,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "ForumLogin.i_verify_the_login_is_successful()"
 });
 formatter.result({
-  "duration": 49124509,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "ForumLogin.i_close_the_browser()"
 });
 formatter.result({
-  "duration": 5091785897,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 87242,
+  "duration": 51951,
   "status": "passed"
 });
 formatter.before({
-  "duration": 149679,
+  "duration": 82463,
   "status": "passed"
 });
 formatter.scenario({
@@ -303,8 +299,9 @@ formatter.match({
   "location": "ForumLogin.i_am_on_Forum_login_page()"
 });
 formatter.result({
-  "duration": 7288475091,
-  "status": "passed"
+  "duration": 543228,
+  "error_message": "java.lang.IllegalStateException: The driver executable does not exist: /Users/afuruddin/Desktop/Stage/Batch03/BDD_Cucumber0321/C:\\Users\\obaidulla\\Desktop\\chromedriver.exe\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\n\tat com.osa.base.Browser.openBrowser(Browser.java:13)\n\tat com.osa.steps.ForumLogin.i_am_on_Forum_login_page(ForumLogin.java:21)\n\tat ✽.Given I am on Forum login page(ForumLogin.feature:4)\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -320,29 +317,26 @@ formatter.match({
   "location": "ForumLogin.i_enter_username_and_Password(String,String)"
 });
 formatter.result({
-  "duration": 129585296,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "ForumLogin.i_verify_the_login_is_successful()"
 });
 formatter.result({
-  "duration": 60367936,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "ForumLogin.i_close_the_browser()"
 });
 formatter.result({
-  "duration": 5086414146,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 128723,
+  "duration": 41121,
   "status": "passed"
 });
 formatter.before({
-  "duration": 92801,
+  "duration": 67175,
   "status": "passed"
 });
 formatter.scenario({
@@ -387,8 +381,9 @@ formatter.match({
   "location": "ForumLogin.i_am_on_Forum_login_page()"
 });
 formatter.result({
-  "duration": 7565290650,
-  "status": "passed"
+  "duration": 685175,
+  "error_message": "java.lang.IllegalStateException: The driver executable does not exist: /Users/afuruddin/Desktop/Stage/Batch03/BDD_Cucumber0321/C:\\Users\\obaidulla\\Desktop\\chromedriver.exe\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\n\tat com.osa.base.Browser.openBrowser(Browser.java:13)\n\tat com.osa.steps.ForumLogin.i_am_on_Forum_login_page(ForumLogin.java:21)\n\tat ✽.Given I am on Forum login page(ForumLogin.feature:4)\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -404,25 +399,22 @@ formatter.match({
   "location": "ForumLogin.i_enter_username_and_Password(String,String)"
 });
 formatter.result({
-  "duration": 168077066,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "ForumLogin.i_verify_the_login_is_successful()"
 });
 formatter.result({
-  "duration": 60209276,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "ForumLogin.i_close_the_browser()"
 });
 formatter.result({
-  "duration": 5097462135,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 150534,
+  "duration": 39229,
   "status": "passed"
 });
 });
