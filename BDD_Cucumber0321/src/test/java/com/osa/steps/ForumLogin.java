@@ -1,5 +1,6 @@
 package com.osa.steps;
 
+
 import org.openqa.selenium.WebDriver;
 
 import com.osa.base.Browser;
@@ -14,9 +15,10 @@ public class ForumLogin {
 	HomePagesFactory hp;
 	ForumLoginPageFactory fl;
 	WebDriver dr;
+	
 	@Given("^I am on Forum login page$")
 	public void i_am_on_Forum_login_page() throws Throwable {
-	  dr=Browser.openBrowser();
+	  dr=Browser.openBrowser();  
 	  dr.get("https://www.osaconsultingtech.com");
 	  hp=new HomePagesFactory(dr);
 	  hp.clickOnForumLoginButton();
